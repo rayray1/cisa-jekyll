@@ -1,0 +1,19 @@
+title: Center for International & Security Affairs
+email: info@cisa-global.org
+description: > # this means to ignore newlines until "baseurl:"
+  Center for International & Security Affairs (CISA), Know Your World Initiative.
+  To be a leading Think Tank, Research and Consulting firm in matters of International and Security Affairs.
+baseurl: "/cisa-jekyll/" # the subpath of your site, e.g. /blog
+url: "http://rayray1.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: CISA_Org
+goopleplus_username:  CISA Organisation
+facebook_username: Center for International & Security Affairs
+
+# Build settings
+markdown: kramdown
+theme: minima
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock

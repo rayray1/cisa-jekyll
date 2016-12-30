@@ -1,0 +1,85 @@
+---
+layout: page
+title: Contact us
+---
+<section class="content-info">
+<div class="crumbs">
+    <div class="container">
+        <ul>
+            <li><a href="index">Home</a></li>
+            <li>/</li>
+            <li>contact us</li>
+        </ul>
+    </div>
+</div>
+<div class="semiboxshadow text-center"> <img src="/img/img-theme/shp.png" class="img-responsive" alt=""> </div>
+<section class="container">
+    <div class="row padding-top">
+        <div class="col-md-4">
+            <aside class="panel-box">
+                <div class="titles">
+                    <h4>Contact Information</h4> 
+                </div>
+                <address> <i class="fa fa-envelope"></i><strong>Email:</strong><a href="mailto:#">info@cisa-global.org</a><br><i class="fa fa-building"></i><strong>City: </strong>Nairobi, Kenya<br><i class="fa fa-phone"></i><abbr><strong>Phone:</strong></abbr> +254 729 950 449</address> 
+            </aside>
+        </div>
+        <div class="col-md-8">
+            <div class="panel-box">
+                <div class="titles">
+                    <h4>Contact us</h4> </div>
+                <form class="form-theme" action="/php/send-mail.php">
+                    <div class="row">
+                        <div class="form-group">
+                            <div class="col-md-6">
+                                <label>Name *</label>
+                                <input type="text" required="" value="" maxlength="100" class="form-control" name="Name" id="name"> </div>
+                            <div class="col-md-6">
+                                <label>Email address *</label>
+                                <input type="email" required="" value="" maxlength="100" class="form-control" name="Email" id="email"> </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group">
+                            <div class="col-md-12">
+                                <label>Message *</label>
+                                <textarea maxlength="5000" rows="10" class="form-control" name="message" style="height: 138px;"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <input type="submit" value="Send Message" class="btn btn-lg btn-primary"> </div>
+                    </div>
+                </form>
+                <div class="result"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="section-wide">
+    <div class="container">
+        <div class="row newsletter">
+            <div class="col-md-12">
+                <div class="text-center">
+                    <h2>Enter your e-mail and <span class="text-resalt">subscribe</span> to our newsletter.</h2>
+                    <p>Information about current events related to our organization.</p>
+                </div>
+                <form id="newsletterForm" action="/php/mailchip/newsletter-subscribe.php">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="input-group"> <span class="input-group-addon"> <i class="fa fa-user"></i> </span>
+                                <input class="form-control" placeholder="Name" name="name" type="text" required="required"> </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="input-group"> <span class="input-group-addon"> <i class="fa fa-envelope"></i> </span>
+                                <input class="form-control" placeholder="Email" name="email" type="email" required="required"> <span class="input-group-btn"> <button class="btn btn-primary" type="submit" name="subscribe" >SIGN UP</button> </span> </div>
+                        </div>
+                    </div>
+                </form>
+                <div id="result-newsletter"></div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
